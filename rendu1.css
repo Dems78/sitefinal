@@ -1,0 +1,123 @@
+.poule {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 57, 180);
+    text-align: center;
+    padding: 1em;
+    border : 0.5em solid rgb(146, 59, 204);
+    border-radius: 3%;
+}
+
+.titre {
+    font-size: 35px;
+    color: white;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+}
+
+.poussin {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 57, 180);
+    text-align: center;
+    padding: 1em;
+    border : 0.5em solid rgb(146, 59, 204);
+    border-radius: 3%;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(90, 57, 180);
+    font-size: 400px; 
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(90, 57, 180);
+    font-size: 30px;
+}
+
+.oeuf {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(90, 57, 180);
+}
+
+.photo {
+    position: absolute;
+    justify-self: center;
+}
+
+.clc {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 57, 180);
+    text-align: center;
+    padding: 1em;
+    border : 0.5em solid rgb(146, 59, 204);
+    border-radius: 3%;
+    margin-top: 32%; 
+}
+
+li {
+    list-style: none;
+}
+
+.btp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.z {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.boutton1 {
+    color: #0e76a8;
+}
+
+.boutton2 {
+    color: #c8232c;
+}
+
+.boutton1:hover {
+    color: #0c4058;
+}
+
+.boutton2:hover {
+    color: #501114;
+}
+
+.titre {
+    animation: 5s infinite linear slip;
+    animation-direction: alternate;
+    
+}
+
+@keyframes slip {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+
+    100% {
+        transform: translateX(0) translateY(85vh);
+    }
+}
